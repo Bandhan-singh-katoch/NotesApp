@@ -11,6 +11,7 @@ public abstract class WordRoomDatabase: RoomDatabase() {
     abstract fun wordDao():WordDao
 
     companion object{
+
         @Volatile
         private var INSTANCE: WordRoomDatabase? = null
 
