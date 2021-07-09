@@ -13,6 +13,7 @@ public abstract class WordRoomDatabase: RoomDatabase() {
     companion object{
 
         //...
+        //..
         @Volatile
         private var INSTANCE: WordRoomDatabase? = null
 
